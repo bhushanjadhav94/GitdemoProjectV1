@@ -11,6 +11,7 @@ public class FailtestLoop implements IRetryAnalyzer
 	{
 		if(count<repeat)
 		{
+			System.out.println();
 			count++;
 			return true;
 		}
